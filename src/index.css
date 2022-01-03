@@ -77,3 +77,14 @@ span {
   right: 415px;
   font-size: 18px;
 }
+
+
+@media screen and (max-width: 700px) {
+  body {
+    background-color: lightgreen;
+  }
+  .container {
+    width: 95% !important;
+    background-color: yellow;
+  }
+}
